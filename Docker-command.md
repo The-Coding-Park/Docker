@@ -12,3 +12,7 @@
  1. docker run --name mongo -d mongo
  2. docker top mongo
  ###### it shows the process which is taking behind the seen for the specific container
+ 3. docker ps >> to check all running images
+ 4. ps aux >> to check all the running process in local machine
+ 5. ps aux | grep mongo >> to find process with name mongo
+ 
