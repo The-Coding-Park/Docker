@@ -15,4 +15,19 @@
  3. docker ps >> to check all running images
  4. ps aux >> to check all the running process in local machine
  5. ps aux | grep mongo >> to find process with name mongo
- 
+## running multiple containers 
+1. docker container run -d -p 3306:3306 --name db -e MYSQL_RANDOM_ROOT_PASSWORED= yes mysql
+2. docker container log db
+3. docker container logs db
+4. docker container run -d --name webserver -p 8080:80 httpd
+5. docker ps 
+6. docker container run -d --name proxy -p 80:80 nginx
+7. docker container ls / docker ps
+8. curl localhost
+9. curl localhost:8080
+10. docker container stop name1 name2 name3
+11. docker ps -a
+12. docker container rm name1 name2 name3
+13. docker ps -a
+14. docker image ls
+
