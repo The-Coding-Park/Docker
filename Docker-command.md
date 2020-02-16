@@ -1,3 +1,4 @@
+# Docker Commands
 1. docker version  >> to check the docker version
 2. docker container run --pubish 80:80 nginx >> to run nginx server on localhost
 3. docker container run --pubish 80:80 --detach nginx >> to run nginx server in background
