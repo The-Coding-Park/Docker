@@ -1,0 +1,58 @@
+#wholeCard {
+    border-radius: 10px;
+    background-color: #545454;
+    width: 2200px;
+}
+
+#cover {
+    height: 500px;
+    width: 1140px;
+    position: relative;
+    left: -15px;
+    border-radius: 10px;
+}
+
+#author_img {
+    position: relative;
+    top: 40px;
+}
+
+#contact_iamge {
+    margin-left: 10px;
+    position: absolute;
+    margin-bottom: -20px;
+    height: 60px;
+    width: 60px;
+}
+
+#contact_text {
+    margin-left: 80px;
+    margin-top: 30px;
+    margin-bottom: -20px;
+    font-family: 'Gloria Hallelujah', cursive;
+    color: c9c9c9;
+}
+
+.verticalLine {
+    border-left: thin solid #707070;
+    margin-left: 440px;
+    height: 1600px;
+    position: relative;
+    margin-top: -1540px;
+    /* top: -20px; */
+    bottom: 90px;
+}
+
+.rhs {
+    margin-left: 500px;
+    margin-top: -1650px;
+}
+
+#expIcon {
+    height: 60px;
+    width: 60px;
+    margin-top: -10px;
+}
+#context{
+    color: bisque;
+}
